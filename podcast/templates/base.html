@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Totally Theo'<s></s> Podcast{% endblock %}</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/episodes/">Episodes</a></li>
+                <li><a href="/contact/">Contact</a></li>
+                <!-- Add more navigation links or elements as needed -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>Totally Theo Podcast. All rights reserved</p>
+        <!-- Add more footer content as needed -->
+    </footer>
+</body>
+</html>
